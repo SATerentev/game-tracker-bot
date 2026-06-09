@@ -1,7 +1,21 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"net/http"
+	"web-app/controller"
+	"web-app/infrastructure"
+	"web-app/service"
+)
+
+const port = ":8080"
 
 func main() {
-	fmt.Println("Hello world!")
+	repository := infrastructure.NewUserRepository()
+	adminService := service.NewAdminService(repository)
+	adminController := controller.NewAdminController(adminService)
+	http.HandleFunc("/", adminController.AdminHandler)
+
+	fmt.Println("Сервер запущен на http://localhost" + port)
+	http.ListenAndServe(port, nil)
 }
