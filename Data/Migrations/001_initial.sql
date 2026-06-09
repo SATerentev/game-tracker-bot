@@ -2,7 +2,7 @@ CREATE TABLE IF NOT EXISTS Users (
     id SERIAL PRIMARY KEY,
     username VARCHAR(255) NOT NULL,
     telegram_id BIGINT UNIQUE NOT NULL,
-    registar_date DATE DEFAULT CURRENT_DATE,
+    register_date DATE DEFAULT CURRENT_DATE,
     last_active DATE DEFAULT CURRENT_DATE
 );
 
