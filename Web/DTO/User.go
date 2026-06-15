@@ -10,6 +10,7 @@ type User struct {
 	Telegram_id   int
 	Register_date time.Time
 	Last_active   time.Time
+	Games_count   int
 }
 
 func (u User) Formatted_register_date() string {

@@ -17,6 +17,7 @@
                         <td>Telegram ID</td>
                         <td>Дата регистрации</td>
                         <td>Последняя активность</td>
+                        <td>Количество игр</td>
                         <td></td>
                     </tr>
                     {{ range .Users }}
@@ -26,10 +27,11 @@
                         <td>{{ .Telegram_id }}</td>
                         <td>{{ .Formatted_register_date |  }}</td>
                         <td>{{ .Formatted_last_active_date }}</td>
+                        <td>{{ .Games_count }}</td>
                         <td><a href='/user/{{ .Id }}' class='details-button'>Подробнее</a></td>
                     </tr>
                     {{ else }}
-                    <td colspan="5">
+                    <td colspan="6">
                         <div style="display: flex; flex-direction: column;">
                             <img src="https://media.tenor.com/344AIqQCUiAAAAAM/megamind-no-bitches.gif" style="height: 40%; width: 40%;">
                             <p style="font-size: large;">No users?</p>

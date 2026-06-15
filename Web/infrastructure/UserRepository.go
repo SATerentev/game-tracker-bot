@@ -21,7 +21,11 @@ func NewUserRepository(connectionString string) (*UserRepository, error) {
 }
 
 func (r *UserRepository) GetUsers() ([]DTO.User, error) {
-	rows, err := r.db.Query(`SELECT * FROM Users`)
+	rows, err := r.db.Query(`
+	SELECT u.*, COUNT(g.id) AS games_count
+	FROM users u LEFT JOIN games g ON u.id = g.user_id
+	GROUP BY u.id, u.username, u.telegram_id, u.register_date, u.last_active
+	`)
 	if err != nil {
 		return nil, err
 	}
@@ -31,7 +35,7 @@ func (r *UserRepository) GetUsers() ([]DTO.User, error) {
 
 	for rows.Next() {
 		var user DTO.User
-		err := rows.Scan(&user.Id, &user.Username, &user.Telegram_id, &user.Register_date, &user.Last_active)
+		err := rows.Scan(&user.Id, &user.Username, &user.Telegram_id, &user.Register_date, &user.Last_active, &user.Games_count)
 		if err != nil {
 			return nil, err
 		}
@@ -43,7 +47,7 @@ func (r *UserRepository) GetUsers() ([]DTO.User, error) {
 
 func (r *UserRepository) GetUserInfo(userId int) (DTO.User, error) {
 	var user DTO.User
-	err := r.db.QueryRow(`SELECT * FROM Users WHERE id = $1`, userId).Scan(
+	err := r.db.QueryRow(`SELECT * FROM users WHERE id = $1`, userId).Scan(
 		&user.Id,
 		&user.Username,
 		&user.Telegram_id,
@@ -55,7 +59,19 @@ func (r *UserRepository) GetUserInfo(userId int) (DTO.User, error) {
 }
 
 func (r *UserRepository) GetUserGames(userId int) ([]DTO.Game, error) {
-	rows, err := r.db.Query(`SELECT * FROM Games WHERE user_id = $1`, userId)
+	rows, err := r.db.Query(`
+	SELECT
+    id,
+    user_id,
+    COALESCE(external_game_id, 0),
+    game_name,
+    game_status,
+    COALESCE(user_rating, 0),
+    COALESCE(note, ''),
+    date_added,
+	COALESCE(completion_date, '0001-01-01')
+	FROM Games 
+	WHERE user_id = $1`, userId)
 	if err != nil {
 		return nil, err
 	}
