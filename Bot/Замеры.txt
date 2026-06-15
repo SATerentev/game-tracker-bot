@@ -1,0 +1,312 @@
+cmd_start — регистрация / главное меню: 0.223s
+gamelist — просмотр списка игр: 0.872s
+add_new_game — добавление игры (начало): 0.447s
+add_game_name — The Witcher 3: 0.913s
+add_game_rawg_selection — выбор игры из RAWG (addgame_rawg_0): 0.238s
+add_game_status — выбор статуса при добавлении (addgame_status_1): 0.313s
+add_game_rating — выбор оценки при добавлении (addgame_rating_10): 1.594s
+add_game_completion_date — 2020.05.20: 0.146s
+add_game_comment — Лучшее во что я играл: 0.498s
+gamelist — просмотр списка игр: 0.593s
+add_new_game — добавление игры (начало): 0.325s
+add_game_name — Cyberpunk 2077: 0.801s
+add_game_rawg_selection — выбор игры из RAWG (addgame_rawg_1): 0.206s
+add_game_status — выбор статуса при добавлении (addgame_status_1): 0.160s
+add_game_rating — выбор оценки при добавлении (addgame_rating_9): 0.674s
+add_game_completion_date — 2023.05.13: 0.111s
+add_game_skip_comment — пропуск комментария: 0.648s
+gamelist — просмотр списка игр: 0.778s
+cmd_start — регистрация / главное меню: 0.163s
+cmd_start — регистрация / главное меню: 0.349s
+gamelist — просмотр списка игр: 0.503s
+add_new_game — добавление игры (начало): 0.266s
+add_game_name — Rape Porn Simulator 1: 0.610s
+add_game_manual_selection — игра не найдена в RAWG: 0.480s
+add_game_status — выбор статуса при добавлении (addgame_status_1): 0.198s
+add_game_rating — выбор оценки при добавлении (addgame_rating_10): 0.236s
+add_game_completion_date — 2100.20.20: 0.482s
+add_game_completion_date — 2100.12.30: 0.085s
+add_game_completion_date — 2026.06.15: 0.091s
+add_game_completion_date — 2026.06.14: 0.086s
+add_game_comment — 💀💀💀💀💀💀: 0.441s
+report_menu — формирование отчёта (начало): 0.143s
+report_generate — отчёт за текущий год: 0.424s
+add_new_game — добавление игры (начало): 0.635s
+cmd_start — регистрация / главное меню: 0.274s
+gamelist — просмотр списка игр: 0.325s
+add_new_game — добавление игры (начало): 0.241s
+add_game_name — Hate Niggers: 0.795s
+add_game_name — Телепузики: 1.131s
+add_game_manual_selection — игра не найдена в RAWG: 0.161s
+add_game_status — выбор статуса при добавлении (addgame_status_2): 0.215s
+add_game_rawg_selection — выбор игры из RAWG (addgame_rawg_0): 0.279s
+add_game_status — выбор статуса при добавлении (addgame_status_1): 0.605s
+add_game_rating — выбор оценки при добавлении (addgame_rating_7): 0.386s
+add_game_comment — Осуждаю: 0.386s
+add_new_game — добавление игры (начало): 0.235s
+add_game_completion_date — 2002.12.7: 0.101s
+add_game_skip_comment — пропуск комментария: 0.737s
+report_menu — формирование отчёта (начало): 0.125s
+report_generate — отчёт за 12 месяцев: 0.404s
+report_generate — отчёт за всё время: 0.682s
+add_new_game — добавление игры (начало): 0.168s
+add_game_name — Hate Niggers 2: Эра хлопка: 1.023s
+add_game_manual_selection — игра не найдена в RAWG: 0.264s
+add_game_status — выбор статуса при добавлении (addgame_status_1): 0.258s
+add_game_rating — выбор оценки при добавлении (addgame_rating_10): 0.388s
+add_game_completion_date — 2026.05.05: 0.088s
+add_game_skip_comment — пропуск комментария: 0.537s
+gamelist — просмотр списка игр: 0.298s
+add_game_name — Карась: 2.906s
+gamelist — просмотр списка игр: 0.658s
+add_game_rawg_selection — выбор игры из RAWG (addgame_rawg_4): 0.972s
+add_new_game — добавление игры (начало): 0.125s
+add_game_status — выбор статуса при добавлении (addgame_status_3): 0.193s
+add_game_name — Hate Niggers 3: Civil War: 1.628s
+add_game_manual_selection — игра не найдена в RAWG: 0.270s
+add_game_comment — Интересный сюжет по идее: 0.820s
+add_game_status — выбор статуса при добавлении (addgame_status_4): 1.416s
+add_game_rating — выбор оценки при добавлении (addgame_rating_9): 0.233s
+change_status_start — изменение статуса (начало) (change_status_53): 0.261s
+report_menu — формирование отчёта (начало): 0.176s
+add_game_completion_date — 2025.12.12: 0.108s
+report_generate — отчёт за текущий год: 0.386s
+add_game_skip_comment — пропуск комментария: 0.746s
+gamelist — просмотр списка игр: 0.589s
+gamelist_filter — открытие фильтра: 0.584s
+apply_filter — применение фильтра (filter_status_3): 0.485s
+gamelist_sort — открытие сортировки: 0.522s
+apply_sort — применение сортировки (sort_status): 0.473s
+add_new_game — добавление игры (начало): 0.177s
+add_game_name — Огонь: 3.246s
+add_game_rawg_selection — выбор игры из RAWG (addgame_rawg_2): 0.213s
+add_game_status — выбор статуса при добавлении (addgame_status_1): 0.193s
+add_game_rating — выбор оценки при добавлении (addgame_rating_4): 0.242s
+add_game_completion_date — 2023.30.12: 0.155s
+add_game_completion_date — 2023.9.3: 0.121s
+add_game_skip_comment — пропуск комментария: 0.566s
+gamelist — просмотр списка игр: 0.802s
+gamelist — просмотр списка игр: 0.360s
+add_new_game — добавление игры (начало): 0.138s
+add_game_name — Караван: 0.832s
+gamelist_filter — открытие фильтра: 0.534s
+add_game_rawg_selection — выбор игры из RAWG (addgame_rawg_2): 0.681s
+add_game_status — выбор статуса при добавлении (addgame_status_3): 0.220s
+add_new_game — добавление игры (начало): 0.219s
+add_game_comment — Красный забор: 1.085s
+add_new_game — добавление игры (начало): 1.176s
+add_game_name — Караван: 1.354s
+add_game_name — Мертвые Души: 0.588s
+add_game_manual_selection — игра не найдена в RAWG: 0.263s
+add_game_status — выбор статуса при добавлении (addgame_status_1): 0.198s
+add_game_rating — выбор оценки при добавлении (addgame_rating_3): 0.191s
+add_game_completion_date — 0001.10.10: 0.112s
+add_game_comment — Слабо, нужен сиквел: 0.308s
+add_new_game — добавление игры (начало): 0.161s
+add_game_name — Nate Higgers: 2.382s
+add_game_manual_selection — игра не найдена в RAWG: 0.155s
+add_game_status — выбор статуса при добавлении (addgame_status_2): 0.206s
+add_game_rawg_selection — выбор игры из RAWG (addgame_rawg_3): 0.158s
+add_game_status — выбор статуса при добавлении (addgame_status_2): 0.186s
+add_game_skip_comment — пропуск комментария: 0.675s
+change_status_start — изменение статуса (начало) (change_status_58): 0.184s
+change_status_save — сохранение статуса (editgame_status_58_1): 0.322s
+change_rating_save — сохранение оценки (editgame_rating_58_10): 0.865s
+add_game_comment — Прикольные стрелки: 0.385s
+change_completion_start — изменение даты прохождения (change_completion_58): 0.581s
+change_completion_save — 1488.09.11: 0.239s
+add_new_game — добавление игры (начало): 0.140s
+add_game_name — Караван: 0.771s
+add_game_rawg_selection — выбор игры из RAWG (addgame_rawg_1): 0.195s
+add_new_game — добавление игры (начало): 0.273s
+add_game_name — Childish Pornito: 0.782s
+add_game_rawg_selection — выбор игры из RAWG (addgame_rawg_2): 0.192s
+add_game_status — выбор статуса при добавлении (addgame_status_3): 0.199s
+add_game_skip_comment — пропуск комментария: 0.337s
+add_game_status — выбор статуса при добавлении (addgame_status_4): 0.180s
+add_game_rating — выбор оценки при добавлении (addgame_rating_7): 0.160s
+change_status_start — изменение статуса (начало) (change_status_60): 0.684s
+change_status_save — сохранение статуса (editgame_status_60_4): 0.400s
+change_rating_save — сохранение оценки (editgame_rating_60_1): 0.495s
+add_game_completion_date — 2026.5.6: 0.275s
+add_game_comment — Слишком быстрый сюжет: 0.460s
+gamelist — просмотр списка игр: 0.285s
+gamelist_sort — открытие сортировки: 0.202s
+apply_sort — применение сортировки (sort_name): 0.429s
+gamelist_sort — открытие сортировки: 0.996s
+add_new_game — добавление игры (начало): 0.165s
+add_new_game — добавление игры (начало): 0.189s
+add_game_name — Голодные Украинцы 2: 0.686s
+add_game_manual_selection — игра не найдена в RAWG: 0.604s
+add_game_name — Голодные Китайцы 4: 5.492s
+add_game_manual_selection — игра не найдена в RAWG: 0.167s
+add_game_status — выбор статуса при добавлении (addgame_status_2): 0.219s
+add_game_status — выбор статуса при добавлении (addgame_status_1): 0.274s
+add_game_skip_comment — пропуск комментария: 0.415s
+add_game_rating — выбор оценки при добавлении (addgame_rating_4): 0.256s
+add_game_completion_date — 2001.09.11: 0.112s
+add_game_comment — 😀: 0.336s
+add_new_game — добавление игры (начало): 0.127s
+add_new_game — добавление игры (начало): 0.470s
+add_game_name — Негр ест Уголь: 24 часа симулятор: 0.894s
+add_game_manual_selection — игра не найдена в RAWG: 0.248s
+add_game_name — Негр ест Уголь 2: Активация: 0.676s
+add_game_status — выбор статуса при добавлении (addgame_status_2): 0.224s
+add_game_manual_selection — игра не найдена в RAWG: 0.175s
+add_game_comment — Годнота, тоде проголодалась: 0.435s
+add_game_status — выбор статуса при добавлении (addgame_status_3): 0.529s
+add_game_comment — Жду выхода: 0.370s
+gamelist — просмотр списка игр: 0.332s
+gamelist_filter — открытие фильтра: 0.518s
+apply_filter — применение фильтра (filter_status_1): 0.484s
+gamelist_filter — открытие фильтра: 0.303s
+apply_filter — применение фильтра (filter_status_2): 0.826s
+report_menu — формирование отчёта (начало): 0.234s
+report_generate — отчёт за 12 месяцев: 0.349s
+report_menu — формирование отчёта (начало): 0.128s
+report_generate — отчёт за всё время: 0.461s
+gamelist — просмотр списка игр: 0.869s
+gamelist_filter — открытие фильтра: 0.727s
+report_menu — формирование отчёта (начало): 0.160s
+apply_filter — применение фильтра (filter_status_2): 0.486s
+gamelist — просмотр списка игр: 0.362s
+gamelist_filter — открытие фильтра: 0.192s
+apply_filter — применение фильтра (filter_status_3): 0.539s
+gamelist_pagination — переключение страницы списка (gamelist_page_2): 0.686s
+gamelist_filter — открытие фильтра: 0.215s
+apply_filter — применение фильтра (filter_status_4): 0.588s
+gamelist_pagination — переключение страницы списка (gamelist_page_1): 0.438s
+gamelist_sort — открытие сортировки: 1.148s
+gamelist — просмотр списка игр: 1.037s
+gameinfo — просмотр игры (gameinfo_54): 0.346s
+change_status_start — изменение статуса (начало) (change_status_54): 0.242s
+cmd_start — регистрация / главное меню: 0.262s
+username_input — hdndbdh: 0.450s
+gamelist — просмотр списка игр: 0.209s
+add_new_game — добавление игры (начало): 0.563s
+add_game_name — Кошка: 1.012s
+add_game_rawg_selection — выбор игры из RAWG (addgame_rawg_3): 0.201s
+add_game_status — выбор статуса при добавлении (addgame_status_2): 0.239s
+add_game_skip_comment — пропуск комментария: 0.323s
+gamelist — просмотр списка игр: 0.766s
+report_menu — формирование отчёта (начало): 0.747s
+report_generate — отчёт за всё время: 0.642s
+gamelist — просмотр списка игр: 0.529s
+gameinfo — просмотр игры (gameinfo_66): 0.623s
+change_status_start — изменение статуса (начало) (change_status_66): 0.874s
+change_status_save — сохранение статуса (editgame_status_66_1): 0.321s
+change_rating_save — сохранение оценки (editgame_rating_66_5): 0.586s
+report_menu — формирование отчёта (начало): 0.191s
+report_generate — отчёт за всё время: 1.942s
+gamelist — просмотр списка игр: 0.265s
+gameinfo — просмотр игры (gameinfo_48): 0.225s
+delete_game_start — удаление игры (начало) (delete_game_48): 0.170s
+delete_game_confirm — подтверждение удаления (confirm_delete_48): 0.305s
+gameinfo — просмотр игры (gameinfo_47): 0.214s
+delete_game_start — удаление игры (начало) (delete_game_47): 0.164s
+delete_game_confirm — подтверждение удаления (confirm_delete_47): 0.223s
+gameinfo — просмотр игры (gameinfo_47): 0.245s
+gamelist — просмотр списка игр: 0.204s
+gamelist — просмотр списка игр: 0.199s
+add_new_game — добавление игры (начало): 0.613s
+add_game_name — The witcher 3: 3.827s
+add_game_rawg_selection — выбор игры из RAWG (addgame_rawg_0): 0.409s
+add_game_status — выбор статуса при добавлении (addgame_status_1): 0.194s
+add_game_rating — выбор оценки при добавлении (addgame_rating_10): 0.195s
+add_game_completion_date — 2020.05.16: 0.103s
+add_game_skip_comment — пропуск комментария: 0.531s
+gamelist — просмотр списка игр: 0.281s
+gamelist — просмотр списка игр: 0.379s
+gameinfo — просмотр игры (gameinfo_67): 0.239s
+add_new_game — добавление игры (начало): 0.139s
+add_game_name — game1: 0.623s
+add_game_manual_selection — игра не найдена в RAWG: 0.173s
+add_game_status — выбор статуса при добавлении (addgame_status_1): 0.217s
+add_game_rating — выбор оценки при добавлении (addgame_rating_7): 0.196s
+add_game_completion_date — 1234.12.12: 0.892s
+add_game_skip_comment — пропуск комментария: 0.403s
+add_new_game — добавление игры (начало): 0.151s
+add_game_name — game2: 0.705s
+add_game_manual_selection — игра не найдена в RAWG: 0.201s
+add_game_status — выбор статуса при добавлении (addgame_status_3): 0.234s
+add_game_skip_comment — пропуск комментария: 0.255s
+add_new_game — добавление игры (начало): 0.145s
+add_game_name — game3: 2.255s
+add_game_manual_selection — игра не найдена в RAWG: 0.218s
+add_game_status — выбор статуса при добавлении (addgame_status_3): 0.861s
+add_game_skip_comment — пропуск комментария: 0.327s
+add_new_game — добавление игры (начало): 0.141s
+add_game_name — game4: 0.724s
+add_game_manual_selection — игра не найдена в RAWG: 0.210s
+add_game_status — выбор статуса при добавлении (addgame_status_2): 0.189s
+add_game_skip_comment — пропуск комментария: 0.357s
+add_new_game — добавление игры (начало): 0.174s
+add_game_name — Game5: 0.790s
+add_game_manual_selection — игра не найдена в RAWG: 0.223s
+add_game_status — выбор статуса при добавлении (addgame_status_3): 0.620s
+add_game_skip_comment — пропуск комментария: 0.366s
+add_new_game — добавление игры (начало): 0.171s
+add_game_name — Game6: 0.796s
+add_game_manual_selection — игра не найдена в RAWG: 0.199s
+add_game_status — выбор статуса при добавлении (addgame_status_2): 0.263s
+add_game_skip_comment — пропуск комментария: 0.278s
+add_new_game — добавление игры (начало): 0.258s
+add_game_name — Game7: 3.001s
+add_game_manual_selection — игра не найдена в RAWG: 0.685s
+add_game_status — выбор статуса при добавлении (addgame_status_3): 0.536s
+add_game_skip_comment — пропуск комментария: 0.419s
+gamelist — просмотр списка игр: 0.588s
+gamelist_pagination — переключение страницы списка (gamelist_page_2): 0.329s
+gamelist_pagination — переключение страницы списка (gamelist_page_1): 0.324s
+add_new_game — добавление игры (начало): 0.123s
+add_game_name — Cyberpunk: 1.020s
+add_game_rawg_selection — выбор игры из RAWG (addgame_rawg_2): 0.178s
+add_game_status — выбор статуса при добавлении (addgame_status_1): 0.178s
+add_game_rating — выбор оценки при добавлении (addgame_rating_10): 0.308s
+add_game_completion_date — 2023.04.26: 0.093s
+add_game_skip_comment — пропуск комментария: 0.370s
+gamelist — просмотр списка игр: 0.272s
+gamelist_filter — открытие фильтра: 0.518s
+apply_filter — применение фильтра (filter_status_1): 0.433s
+gamelist_filter — открытие фильтра: 0.194s
+apply_filter — применение фильтра (filter_all): 0.348s
+gamelist_sort — открытие сортировки: 0.193s
+apply_sort — применение сортировки (sort_rating): 0.394s
+gamelist_sort — открытие сортировки: 0.196s
+apply_sort — применение сортировки (sort_status): 0.284s
+report_menu — формирование отчёта (начало): 0.268s
+report_generate — отчёт за 12 месяцев: 0.370s
+report_generate — отчёт за текущий год: 0.994s
+report_generate — отчёт за всё время: 0.398s
+add_new_game — добавление игры (начало): 0.312s
+add_game_name — Дорогая Августина, надеюсь прошедшие дожди не коснулись вашей пневмонии, *каакапкап*, дела в штатах усугубились, когда тыквенный урожай был уничтожен из-за наплыва редчайших паразитов,*капкапкап*: 2.018s
+add_game_manual_selection — игра не найдена в RAWG: 0.200s
+add_game_status — выбор статуса при добавлении (addgame_status_2): 0.194s
+add_game_comment — Капкапкап: 0.359s
+gamelist — просмотр списка игр: 0.502s
+gamelist_pagination — переключение страницы списка (gamelist_page_2): 0.474s
+cmd_start — регистрация / главное меню: 0.494s
+cmd_start — регистрация / главное меню: 0.219s
+add_new_game — добавление игры (начало): 0.144s
+add_game_name — gamename1832: 2.927s
+add_game_manual_selection — игра не найдена в RAWG: 0.282s
+add_game_status — выбор статуса при добавлении (addgame_status_2): 0.682s
+add_game_skip_comment — пропуск комментария: 1.148s
+gamelist — просмотр списка игр: 0.653s
+gamelist — просмотр списка игр: 0.235s
+gameinfo — просмотр игры (gameinfo_88): 0.328s
+change_status_start — изменение статуса (начало) (change_status_88): 0.224s
+change_status_save — сохранение статуса (editgame_status_88_1): 0.240s
+change_rating_save — сохранение оценки (editgame_rating_88_8): 0.780s
+cmd_start — регистрация / главное меню: 0.171s
+report_menu — формирование отчёта (начало): 0.148s
+report_generate — отчёт за 12 месяцев: 0.501s
+add_new_game — добавление игры (начало): 0.427s
+add_game_name — witcher: 0.647s
+add_game_manual_selection — игра не найдена в RAWG: 1.320s
+add_game_status — выбор статуса при добавлении (addgame_status_1): 0.353s
+add_game_rating — выбор оценки при добавлении (addgame_rating_8): 1.013s
+add_game_completion_date — 2030.10.10: 0.181s
+add_game_completion_date — 2020.13.20: 0.461s
+add_game_completion_date — 2020.12.20: 0.954s
+add_game_skip_comment — пропуск комментария: 0.502s

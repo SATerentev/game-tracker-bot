@@ -1,0 +1,162 @@
+2026-06-14 20:31:46,728 [ERROR] aiogram.event: Cause exception while process update id=512428851 by bot id=8246925482
+NotNullViolation: ОШИБКА:  значение NULL в столбце "username" отношения "users" нарушает ограничение NOT NULL
+DETAIL:  Ошибочная строка содержит (26, null, 1264143924, 2026-06-14, 2026-06-14).
+Traceback (most recent call last):
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\app-bot-venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 320, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\app-bot-venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\app-bot-venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\app-bot-venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\app-bot-venv\Lib\site-packages\aiogram\fsm\middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\app-bot-venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\app-bot-venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\app-bot-venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\app-bot-venv\Lib\site-packages\aiogram\dispatcher\router.py", line 165, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\app-bot-venv\Lib\site-packages\aiogram\dispatcher\router.py", line 157, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\app-bot-venv\Lib\site-packages\aiogram\dispatcher\router.py", line 193, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\app-bot-venv\Lib\site-packages\aiogram\dispatcher\router.py", line 165, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\app-bot-venv\Lib\site-packages\aiogram\dispatcher\router.py", line 157, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\app-bot-venv\Lib\site-packages\aiogram\dispatcher\router.py", line 185, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\app-bot-venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\middleware\TimingMiddleware.py", line 77, in __call__
+    result = await handler(event, data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\app-bot-venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\handler\HelloHandler.py", line 10, in cmd_start
+    UserService.register_user(message.from_user.username, message.from_user.id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\service\UserService.py", line 8, in register_user
+    UserRepository.save_user(telegram_username, telegram_id, datetime.date.today(), datetime.date.today())
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\infrastructure\UserRepository.py", line 81, in save_user
+    cursor.execute('''
+    ~~~~~~~~~~~~~~^^^^
+        INSERT INTO users (
+        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        VALUES (%s, %s, %s, %s)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+    ''', (username, telegram_id, registration_date, last_active_date))
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.NotNullViolation: ОШИБКА:  значение NULL в столбце "username" отношения "users" нарушает ограничение NOT NULL
+DETAIL:  Ошибочная строка содержит (26, null, 1264143924, 2026-06-14, 2026-06-14).
+
+2026-06-14 20:41:02,552 [ERROR] aiogram.event: Cause exception while process update id=512428864 by bot id=8246925482
+AttributeError: 'NoneType' object has no attribute 'strip'
+Traceback (most recent call last):
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\app-bot-venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 320, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\app-bot-venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 164, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\app-bot-venv\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 27, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\app-bot-venv\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 58, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\app-bot-venv\Lib\site-packages\aiogram\fsm\middleware.py", line 43, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\app-bot-venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\app-bot-venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\app-bot-venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 283, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\app-bot-venv\Lib\site-packages\aiogram\dispatcher\router.py", line 165, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\app-bot-venv\Lib\site-packages\aiogram\dispatcher\router.py", line 157, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\app-bot-venv\Lib\site-packages\aiogram\dispatcher\router.py", line 193, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\app-bot-venv\Lib\site-packages\aiogram\dispatcher\router.py", line 165, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\app-bot-venv\Lib\site-packages\aiogram\dispatcher\router.py", line 157, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\app-bot-venv\Lib\site-packages\aiogram\dispatcher\router.py", line 185, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\app-bot-venv\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 126, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\middleware\TimingMiddleware.py", line 77, in __call__
+    result = await handler(event, data)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\app-bot-venv\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 71, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\handler\GameHandler.py", line 469, in add_game_comment
+    await _finish_add_game(message.from_user.id, message, note=message.text.strip())
+                                                               ^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-06-14 20:59:47,987 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-06-14 21:07:33,626 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-06-14 21:08:35,194 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-06-15 04:42:13,894 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-06-15 20:16:18,075 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-06-15 20:31:50,452 [ERROR] infrastructure.API_gateway_RAWG: RAWG API error while searching 'witcher': 'results'
+Traceback (most recent call last):
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\infrastructure\API_gateway_RAWG.py", line 21, in search_game
+    results = data['results']
+              ~~~~^^^^^^^^^^^
+KeyError: 'results'
+2026-06-15 21:06:59,981 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
