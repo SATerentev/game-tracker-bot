@@ -301,3 +301,12 @@ change_rating_save — сохранение оценки (editgame_rating_88_8):
 cmd_start — регистрация / главное меню: 0.171s
 report_menu — формирование отчёта (начало): 0.148s
 report_generate — отчёт за 12 месяцев: 0.501s
+add_new_game — добавление игры (начало): 0.427s
+add_game_name — witcher: 0.647s
+add_game_manual_selection — игра не найдена в RAWG: 1.320s
+add_game_status — выбор статуса при добавлении (addgame_status_1): 0.353s
+add_game_rating — выбор оценки при добавлении (addgame_rating_8): 1.013s
+add_game_completion_date — 2030.10.10: 0.181s
+add_game_completion_date — 2020.13.20: 0.461s
+add_game_completion_date — 2020.12.20: 0.954s
+add_game_skip_comment — пропуск комментария: 0.502s

@@ -153,3 +153,10 @@ AttributeError: 'NoneType' object has no attribute 'strip'
 2026-06-14 21:08:35,194 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
 2026-06-15 04:42:13,894 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
 2026-06-15 20:16:18,075 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-06-15 20:31:50,452 [ERROR] infrastructure.API_gateway_RAWG: RAWG API error while searching 'witcher': 'results'
+Traceback (most recent call last):
+  File "C:\Users\MrSam\OneDrive\Рабочий стол\Курсовая работа\app\Bot\infrastructure\API_gateway_RAWG.py", line 21, in search_game
+    results = data['results']
+              ~~~~^^^^^^^^^^^
+KeyError: 'results'
+2026-06-15 21:06:59,981 [ERROR] aiogram.dispatcher: Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
