@@ -285,3 +285,19 @@ add_game_status — выбор статуса при добавлении (addga
 add_game_comment — Капкапкап: 0.359s
 gamelist — просмотр списка игр: 0.502s
 gamelist_pagination — переключение страницы списка (gamelist_page_2): 0.474s
+cmd_start — регистрация / главное меню: 0.494s
+cmd_start — регистрация / главное меню: 0.219s
+add_new_game — добавление игры (начало): 0.144s
+add_game_name — gamename1832: 4.427s
+add_game_manual_selection — игра не найдена в RAWG: 0.282s
+add_game_status — выбор статуса при добавлении (addgame_status_2): 0.682s
+add_game_skip_comment — пропуск комментария: 1.148s
+gamelist — просмотр списка игр: 0.653s
+gamelist — просмотр списка игр: 0.235s
+gameinfo — просмотр игры (gameinfo_88): 0.328s
+change_status_start — изменение статуса (начало) (change_status_88): 0.224s
+change_status_save — сохранение статуса (editgame_status_88_1): 0.240s
+change_rating_save — сохранение оценки (editgame_rating_88_8): 0.780s
+cmd_start — регистрация / главное меню: 0.171s
+report_menu — формирование отчёта (начало): 0.148s
+report_generate — отчёт за 12 месяцев: 0.501s
