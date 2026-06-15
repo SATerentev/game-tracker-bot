@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Пользователь {{ .User.Username }}</title>
+    </head>
+    <body>
+        {{ block "header" . }}
+        {{ end }}
+            <div class="container">
+                <li>ID: {{ .User.Id }}</li>
+                <li>Username: {{ .User.Username }}</li>
+                <li>Telegram ID: {{ .User.Telegram_id }}</li>
+                <li>Дата регистрации: {{ .User.Formatted_register_date }}</li>
+                <li>Последняя активность: {{ .User.Formatted_last_active_date }}</li>
+
+                <h2>Библиотека</h2>
+                    <table>
+                        <tr>
+                            <td>RAWG ID</td>
+                            <td>Название</td>
+                            <td>Статус</td>
+                            <td>Оценка</td>
+                            <td>Заметка</td>
+                            <td>Дата прохождения</td>
+                            <td>Дата добавления</td>
+                        </tr>
+                        {{ range .Games }}
+                        <tr>
+                            <td>{{ .External_game_id }}</td>
+                            <td>{{ .Game_name }}</td>
+                            <td>{{ .Game_status }}</td>
+                            <td>{{ .User_rating }}</td>
+                            <td>{{ .Note }}</td>
+                            <td>{{ .Formatted_completion_date }}</td>
+                            <td>{{ .Formatted_date_added }}</td>
+                        </tr>
+                        {{ else }}
+                        <td colspan="7">Библиотека пуста</td>
+                        {{ end }}
+                    </table>
+            </div>
+    </body>
+</html>
+
+{{ block "style" . }}
+{{ end }}

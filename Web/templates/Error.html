@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Ошибка</title>
+    </head>
+    <body>
+        {{ block "header" . }}
+        {{ end }}
+        <body>
+            <div class="container">
+                <h1>Что-то пошло не так</h1>
+                <div class="error-message"> {{ .Error }}</div>
+            </div>
+        </body>
+    </body>
+</html>
+
+{{ block "style" . }}
+{{ end }}
