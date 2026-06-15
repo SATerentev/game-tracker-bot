@@ -288,7 +288,7 @@ gamelist_pagination — переключение страницы списка (
 cmd_start — регистрация / главное меню: 0.494s
 cmd_start — регистрация / главное меню: 0.219s
 add_new_game — добавление игры (начало): 0.144s
-add_game_name — gamename1832: 4.427s
+add_game_name — gamename1832: 2.927s
 add_game_manual_selection — игра не найдена в RAWG: 0.282s
 add_game_status — выбор статуса при добавлении (addgame_status_2): 0.682s
 add_game_skip_comment — пропуск комментария: 1.148s
